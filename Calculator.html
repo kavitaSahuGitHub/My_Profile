@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>
+Discount Calculator
+    </title>
+    <style>
+        h2{
+            margin-left: 10px;
+            font-family:'Itim' , cursive;
+        }
+       
+        label{
+            margin-left: 10px;
+            font-size: x-large;
+            font-family:'Itim' , cursive;
+           
+        }
+        input{
+            border-radius: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #billAmnt{margin-left: 130px;}
+
+        #inDis{margin-left: 30px;}
+
+        body{background-color:#f2f2f2 ; color: cadetblue; }
+        p{ font-family:'Itim' , cursive}
+
+        button{ font-family:'Itim' , cursive; 
+        font-size: x-large;
+        color: cadetblue; 
+        background:burlywood;
+        border-radius: 20px;
+        padding-top:5px;
+        padding-left:10px;
+        padding-right: 10px; 
+        padding-bottom: 5px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    </style>
+</head>
+<body>
+<h2>DISCOUNT CALCULATOR</h2>
+<p>Enter the Bill amount and discount in percentage</p>
+<label id="lblBillAmount" for="billamt">Bill Amount</label>
+<input type="number" id="billAmnt"><br>
+
+<label id="lblDiscPer" for="disPer">Discount Percentage</label>
+<input type="number" id="inDis"><br>
+
+<button type="button" >Calculate</button><br>
+<label id="lblTotalDisc">Total Discount Amount==</label>  
+</body>
